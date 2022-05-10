@@ -2,10 +2,6 @@
 
 Aprendendo sobre Datalakes com dados de [Counter Strike](https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/) da [Gamers Club (GC)](https://gamersclub.gg/).
 
-Lives na [Twitch](https://www.twitch.tv/teomewhy) todas terças e quintas às 9:00AM!
-
-
-[<img src="https://i.ibb.co/jWdzVDZ/teomewhy-logo-interrogacao-small.png" alt="teomewhy" width=100>](https://www.twitch.tv/teomewhy) &nbsp;&nbsp; [<img src="https://i.ibb.co/VxZz16c/gczinha.png" alt="gc" width=90>](https://gamersclub.gg/) &nbsp;&nbsp; [<img src="https://i.ibb.co/Qd2WzJ0/Apache-Spark.png" alt="Apache-Spark" width=120>](https://spark.apache.org/) &nbsp;&nbsp; [<img src="https://i.ibb.co/M2RF1Vb/deltalake.png" alt="deltalake" width=100>](https://delta.io/) &nbsp;&nbsp; [<img src="https://i.ibb.co/G95JWPM/databricks.png" alt="databricks" width=85>](https://databricks.com/)
 
 ## Sumário
 
@@ -15,15 +11,13 @@ Lives na [Twitch](https://www.twitch.tv/teomewhy) todas terças e quintas às 9:
 
 * [3 Sobre os dados](#sobre-os-dados)
 
-* [4 Sobre o autor](#sobre-o-autor)
 
-* [5 Como apoiar](#como-apoiar)
 
 ## Sobre o projeto
 
-A ideia principal deste projeto é a criação de um Datalake utilizando os dados públicos que a Gamers Clube disponibilizou no Kaggle. É esperado que os exemplos construidos auxiliem os primeiros passos de quem se interesse pelo tema. Assim, começaremos do básico e evoluiremos em conjuto com a comunidade.
+A ideia principal deste projeto é a criação de um Datalake utilizando os dados públicos que a Gamers Clube disponibilizou no Kaggle.
 
-Todo conteúdo será realizado em lives na Twitch no canal [Téo Me Why](https://www.twitch.tv/teomewhy). Não há custo algum para assistir às lives nem mesmo cadastro é necessário. Mas para ter uma melhor experiência, o cadastro na Twitch te possibilita maiores iterações. Para ter acesso ao conteúdo gravado, é necessário ser assinante do canal.
+Todo conteúdo foi baseado em lives na Twitch no canal [Téo Me Why](https://www.twitch.tv/teomewhy). 
 
 Realizaremos as primeiras ingestões de dados na camada `raw`, consolidação em DeltaLake para camada `bronze`, qualidade de dados e padronizações em `silver` e visões analíticas em `gold`. Assim, construiremos pipelines de dados end-to-end.
 
@@ -52,21 +46,3 @@ Estes dados representam uma pequena parcela dos serviços disponíveis na plataf
 Temos ainda um esquema do relacionamento destes dados:
 
 <img src="https://user-images.githubusercontent.com/4283625/157664295-45b60786-92a4-478d-a044-478cdc6261d7.jpg" alt="" width="650">
-
-## Sobre o autor
-
-Téo é Bacharel em Estatística e tem Pós Graduação em Data Science & Big Data.
-
-Hoje, como Head of Data na Gamers Club, gostaria de contribuir ainda mais para a comunidade trazendo dados reais e aplicações com SQL, Python e Machine Learning.
-
-Você pode conhecer mais sobre mim no [LinkedIn](https://www.linkedin.com/in/teocalvo/) e [GitHub](https://github.com/teocalvo).
-
-## Como apoiar
-
-O Téo Me Why existe a partir do propósito de mudar vidas pelo ensino, assim, a melhor forma de apoiar o que estamos construindo é o compartilhamento e interações nas redes sociais. Talvez você não faça ideia o quanto sua curtida pode alcançar e transformar vidas.
-
-Para manter o ambiente que construiremos funcionando, existe um custo envolvido. Hoje, as assinaturas da Twitch são a principal forma que conseguimos deixar as contas equilibradas. Assim, você pode nos apoiar assinano nosso canal. Em troca da assinatura, você terá acesso à todo material criado na Twitch, e ficará livre dos ADs (propaganda) durante as transmissões.
-
-Prezamos pela transparência, assim, você pode conferir nossas [contas aqui](https://docs.google.com/spreadsheets/d/1V5e4aIJTLh1k7kFn_wj5Bn_7_9hDCml1eNcXdK6NhU8/edit?usp=sharing).
-
-Fique a vontade para contribuir com este documento, corrigindo erros de português e digitação. Bem como abertura de `issues` que acredita ser interessante resolvermos.
